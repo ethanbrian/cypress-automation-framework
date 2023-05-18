@@ -1,0 +1,132 @@
+{
+  "routes": [
+    {
+      "id": "10f4c83c-90b6-ed11-ad49-0ee00e897f52",
+      "category": "6",
+      "categoryDescription": "Business Transfers",
+      "transactionTypeId": "72a9671a-6592-ed11-ad11-0ee00e897f52",
+      "categoryIsEnabled": true,
+      "routeIntergration": "Mpesa",
+      "country": "KENYA",
+      "routeIsActive": true,
+      "channelTypes": [
+        {
+          "channelType": 13,
+          "channelDescription": "Business Buy Goods"
+        },
+        {
+          "channelType": 14,
+          "channelDescription": "Business PayBill"
+        },
+        {
+          "channelType": 16,
+          "channelDescription": "Business To Business Transfer"
+        },
+        {
+          "channelType": 20,
+          "channelDescription": "Coop To Mpesa"
+        },
+        {
+          "channelType": 1,
+          "channelDescription": "M-Pesa"
+        }
+      ]
+    },
+    {
+      "id": "15bc575d-90b6-ed11-ad49-0ee00e897f52",
+      "category": "1",
+      "categoryDescription": "Bank Transfer",
+      "transactionTypeId": "32bd3a8f-6492-ed11-ad11-0ee00e897f52",
+      "categoryIsEnabled": true,
+      "routeIntergration": "COOP",
+      "country": "KENYA",
+      "routeIsActive": true,
+      "channelTypes": [
+        {
+          "channelType": 22,
+          "channelDescription": "Coop IFT"
+        },
+        {
+          "channelType": 21,
+          "channelDescription": "Pesalink Coop to Account"
+        },
+        {
+          "channelType": 141,
+          "channelDescription": "CoopC2B"
+        }
+      ]
+    },
+    {
+      "id": "f90fb376-c4b6-ed11-ad49-0ee00e897f52",
+      "category": "2",
+      "categoryDescription": "Airtime Purchase",
+      "transactionTypeId": "d243460a-6592-ed11-ad11-0ee00e897f52",
+      "categoryIsEnabled": true,
+      "routeIntergration": "Africas Talking",
+      "country": "KENYA",
+      "routeIsActive": true,
+      "channelTypes": [
+        {
+          "channelType": 7,
+          "channelDescription": "AfricasTalking Airtime Purchase"
+        }
+      ]
+    },
+    {
+      "id": "4ab097a1-1dc7-ed11-ad66-0ee00e897f52",
+      "category": "1",
+      "categoryDescription": "Bank Transfer",
+      "transactionTypeId": "4bbc9341-c1c4-ed11-ad63-0ee00e897f52",
+      "categoryIsEnabled": true,
+      "routeIntergration": "Fomo-Pay",
+      "country": "CHINA",
+      "routeIsActive": true,
+      "channelTypes": [
+        {
+          "channelType": 156,
+          "channelDescription": "Ali Pay"
+        },
+        {
+          "channelType": 9,
+          "channelDescription": "Wechat"
+        }
+      ]
+    },
+    {
+      "id": "0d8c3ff8-3bcd-ed11-ad73-0ee00e897f52",
+      "category": "10",
+      "categoryDescription": "Card Payment",
+      "transactionTypeId": "1340c728-39cd-ed11-ad73-0ee00e897f52",
+      "categoryIsEnabled": true,
+      "routeIntergration": "Cellulant-Card-Payment",
+      "country": "KENYA",
+      "routeIsActive": true,
+      "channelTypes": [
+        {
+          "channelType": 158,
+          "channelDescription": "Cellulant-Card-Express-Pay"
+        }
+      ]
+    },
+    {
+      "id": "2135903c-02d9-ed11-ad89-0ee00e897f52",
+      "category": "1",
+      "categoryDescription": "Bank Transfer",
+      "transactionTypeId": "32bd3a8f-6492-ed11-ad11-0ee00e897f52",
+      "categoryIsEnabled": true,
+      "routeIntergration": "Pesalink",
+      "country": "KENYA",
+      "routeIsActive": true,
+      "channelTypes": [
+        {
+          "channelType": 22,
+          "channelDescription": "Coop IFT"
+        },
+        {
+          "channelType": 21,
+          "channelDescription": "Pesalink Coop to Account"
+        }
+      ]
+    }
+  ]
+}
