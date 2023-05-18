@@ -74,12 +74,3 @@ Cypress.Commands.add('getToken', () => {
   return cy.fixture('oauth2_token.json').its('token');
 });
 
-
-
-
-
-
-
-  
-
-  
