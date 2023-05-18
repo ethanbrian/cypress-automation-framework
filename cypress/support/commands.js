@@ -62,6 +62,9 @@ Cypress.Commands.add('paymentOrderRequest', (data) => {
     }).then((response) => {
       // Assert on the response status code
       expect(response.status).to.equal(202);
+
+       // Store the response in a JSON file in the fixtures folder
+       cy.writeFile('cypress/fixtures/payment_order_response.json', JSON.stringify(response.body));
     });
   });
 });
@@ -70,6 +73,8 @@ Cypress.Commands.add('paymentOrderRequest', (data) => {
 Cypress.Commands.add('getToken', () => {
   return cy.fixture('oauth2_token.json').its('token');
 });
+
+
 
 
 
