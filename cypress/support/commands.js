@@ -67,6 +67,12 @@ Cypress.Commands.add('paymentOrderRequest', (data) => {
 });
 
 
+Cypress.Commands.add('getToken', () => {
+  return cy.fixture('cypress/fixtures/oauth2_token.json').its('token');
+});
+
+
+
 
 
   
