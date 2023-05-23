@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('login', () => {
+  Cypress.Commands.add('login', () => {
   const clientId = Cypress.env('CLIENT_ID');
   const clientSecret = Cypress.env('CLIENT_SECRET');
   const scope = Cypress.env('SCOPE');
@@ -65,6 +65,27 @@ Cypress.Commands.add('paymentOrderRequest', (data) => {
 
        // Store the response in a JSON file in the fixtures folder
        cy.writeFile('cypress/fixtures/payment_order_response.json', JSON.stringify(response.body));
+    });
+  });
+});
+
+Cypress.Commands.add('expresspostrequest', (data) => {
+  // Read the token from the JSON file
+  cy.fixture('oauth2_token').then((token) => {
+    // Make the POST request with the token
+    cy.request({
+      method: 'POST',
+      url: 'https://sandboxapi.zamupay.com/v1/express-deposit',
+      headers: {
+        Authorization: `Bearer ${token.token}`,
+      },
+      body: data,
+    }).then((response) => {
+      // Assert on the response status code
+      expect(response.status).to.equal(202);
+
+       // Store the response in a JSON file in the fixtures folder
+       cy.writeFile('cypress/fixtures/express_deposit.json', JSON.stringify(response.body));
     });
   });
 });

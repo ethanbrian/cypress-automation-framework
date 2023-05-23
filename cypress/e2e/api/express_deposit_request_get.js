@@ -13,11 +13,12 @@ describe('GET Request', () => {
             },
           }).then((response) => {
             // Add any assertions on the response here
-            cy.log('Response:', response.body);
+            // cy.log('Response:', response.body);
             expect(response.status).to.eq(200);
             // const responseBody = response.body;
             //  const remarks = responseBody.remarks;
             //  expect(remarks).to.equal('Transactions');
+            cy.writeFile('cypress/fixtures/express_deposit.json', JSON.stringify(response.body));
 
           });
         });

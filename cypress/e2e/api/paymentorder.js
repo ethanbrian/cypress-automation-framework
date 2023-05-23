@@ -31,6 +31,7 @@ const data = {
       {
         routeId: "10f4c83c-90b6-ed11-ad49-0ee00e897f52",
         ChannelType: 20,
+        customerAccountNo :"000123",
         amount: 100,
         reference: "Testing",
         systemTraceAuditNumber:id
