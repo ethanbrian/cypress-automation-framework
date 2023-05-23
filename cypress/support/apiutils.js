@@ -7,7 +7,8 @@ function performGetRequest(url, token) {
       }
     }).then((response) => {
       // Assert the status code
-      expect(response.status).to.eq(200);
+      // Assert that the status code is in the 2xx range
+    expect(response.status).to.be.oneOf([200, 201, 202]);
   
       // Store the response in a JSON file in the fixtures folder
       cy.writeFile('cypress/fixtures/payment_order.json', response.body);

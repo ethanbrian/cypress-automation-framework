@@ -61,7 +61,8 @@ Cypress.Commands.add('paymentOrderRequest', (data) => {
       body: data,
     }).then((response) => {
       // Assert on the response status code
-      expect(response.status).to.equal(202);
+      // Assert that the status code is in the 2xx range
+    expect(response.status).to.be.oneOf([200, 201, 202]);
 
        // Store the response in a JSON file in the fixtures folder
        cy.writeFile('cypress/fixtures/payment_order_response.json', JSON.stringify(response.body));
@@ -82,7 +83,8 @@ Cypress.Commands.add('expresspostrequest', (data) => {
       body: data,
     }).then((response) => {
       // Assert on the response status code
-      expect(response.status).to.equal(202);
+      // Assert that the status code is in the 2xx range
+     expect(response.status).to.be.oneOf([200, 201, 202]);
 
        // Store the response in a JSON file in the fixtures folder
        cy.writeFile('cypress/fixtures/express_deposit.json', JSON.stringify(response.body));

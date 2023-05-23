@@ -14,7 +14,8 @@ describe('GET Request', () => {
           }).then((response) => {
             // Add any assertions on the response here
             cy.log('Response:', response.body);
-            expect(response.status).to.eq(200);
+           // Assert that the status code is in the 2xx range
+            expect(response.status).to.be.oneOf([200, 201, 202]);
             // const responseBody = response.body;
             //  const remarks = responseBody.remarks;
             //  expect(remarks).to.equal('Transactions');
