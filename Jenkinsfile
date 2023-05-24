@@ -54,17 +54,17 @@ pipeline {
         }
         
         stage('Run Cypress Tests') {
-            timeout(time: 15, unit: 'MINUTES') {
-            steps {
-                bat 'npx cypress run --headless --spec "cypress/e2e/api/paymentorder.js"'
+        steps {
+        timeout(time: 15, unit: 'MINUTES') {
+            bat 'npx cypress run --headless --spec "cypress/e2e/api/paymentorder.js"'
                 bat 'npx cypress run --headless --spec "cypress/e2e/api/payment_order_originator.js"'
                 bat 'npx cypress run --headless --spec "cypress/e2e/api/express_deposit_request_post.js"'
                 bat 'npx cypress run --headless --spec "cypress/e2e/api/express_deposit_request_get.js"'
                 bat 'npx cypress run --headless --spec "cypress/e2e/api/TransactionRoutes.js"'
-                // Add more commands for additional spec files as needed
-            }
-            }
         }
+    }
+}
+
     }
 }
 
