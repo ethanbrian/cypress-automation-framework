@@ -53,7 +53,7 @@ pipeline {
             }
         }
         
-        stage('Run Cypress Tests') {
+        stage('Run Zamupay Rest Api Test Suites') {
         steps {
         timeout(time: 15, unit: 'MINUTES') {
             bat 'npx cypress run --headless --spec "cypress/e2e/api/paymentorder.js"'
