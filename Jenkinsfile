@@ -52,6 +52,10 @@ pipeline {
         stage('Run Cypress Tests') {
             steps {
                 script {
+            def workspaceDir = pwd()
+            echo "Workspace directory: ${workspaceDir}"
+            sh "ls ${workspaceDir}"  
+                    // List files in the workspace directory
                     // Define an array of Cypress spec file paths
                     def specFiles = [
                         'cypress/e2e/api/paymentorder.js',
