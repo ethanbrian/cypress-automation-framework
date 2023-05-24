@@ -37,40 +37,32 @@
 
 pipeline {
     agent any
+    tools{nodejs "node"}
     
     stages {
-        stage('Build') {
+        stage('Clone Repository') {
             steps {
-                // Perform any necessary build steps before running tests
-                // For example, installing dependencies, compiling code, etc.
-                 git url: 'https://github.com/ethanbrian/cypress-automation-framework.git'
-                 bat 'npm install'
-                 bat 'npm update'
+                git 'https://github.com/ethanbrian/cypress-automation-framework.git'
+            }
+        }
+        
+        stage('Install Dependencies') {
+            steps {
+                bat 'npm install' // or yarn install
+                bat 'npm update'
             }
         }
         
         stage('Run Cypress Tests') {
             steps {
-                script {
-            def workspaceDir = pwd()
-            echo "Workspace directory: ${workspaceDir}"
-            sh "ls ${workspaceDir}"  
-                    // List files in the workspace directory
-                    // Define an array of Cypress spec file paths
-                    def specFiles = [
-                        'cypress/e2e/api/paymentorder.js',
-                        'cypress/e2e/api/payment_order_originator.js',
-                        'cypress/e2e/api/express_deposit_request_post.js',
-                        'cypress/e2e/api/express_deposit_request_get.js',
-                        'cypress/e2e/api/TransactionRoutes.js'
-                    ]
-                    
-                    // Loop through the spec files and run Cypress for each file
-                    for (def specFile in specFiles) {
-                        sh "npx cypress run --spec ${specFile} --headless"
-                    }
-                }
+                bat 'npx cypress run --headless --spec "cypress/e2e/api/paymentorder.js"'
+                bat 'npx cypress run --headless --spec "cypress/e2e/api/payment_order_originator.js"'
+                bat 'npx cypress run --headless --spec "cypress/e2e/api/express_deposit_request_post.js"'
+                bat 'npx cypress run --headless --spec "cypress/e2e/api/express_deposit_request_get.js"'
+                bat 'npx cypress run --headless --spec "cypress/e2e/api/TransactionRoutes.js"'
+                // Add more commands for additional spec files as needed
             }
         }
     }
 }
+
