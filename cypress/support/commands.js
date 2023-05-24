@@ -54,6 +54,7 @@ Cypress.Commands.add('paymentOrderRequest', (data) => {
     // Make the POST request with the token
     cy.request({
       method: 'POST',
+      timeout: 60000, // Increase the timeout to 60 seconds
       url: 'https://sandboxapi.zamupay.com/v1/payment-order/new-order',
       headers: {
         Authorization: `Bearer ${token.token}`,

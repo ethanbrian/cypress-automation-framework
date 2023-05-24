@@ -9,7 +9,7 @@
   "author": "chege",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.11.0"
+    "cypress": "^12.13.0"
   },
   "dependencies": {
     "npx": "^10.2.2",
