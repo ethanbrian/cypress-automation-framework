@@ -57,7 +57,7 @@ pipeline {
                         'cypress/e2e/api/paymentorder.js',
                         'cypress/e2e/api/payment_order_originator.js',
                         'cypress/e2e/api/express_deposit_request_post.js',
-                        'cypress/e2e/api/express_deposit_request_get.js'
+                        'cypress/e2e/api/express_deposit_request_get.js',
                         'cypress/e2e/api/TransactionRoutes.js'
                     ]
                     
