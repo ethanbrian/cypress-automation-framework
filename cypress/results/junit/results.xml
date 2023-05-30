@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2023-05-29T10:01:16" tests="0" file="cypress\e2e\api\express_deposit_request_post.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Api Endpoints for zamupay" timestamp="2023-05-29T10:01:16" tests="1" time="2.709" failures="0">
+  
+  <testcase name="Api Endpoints for zamupay should send a payment order request with token" time="2.682" classname="should send a payment order request with token"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T10:01:24" tests="0" file="cypress\e2e\api\paymentorder.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Api Endpoints for zamupay" timestamp="2023-05-29T10:01:24" tests="1" time="0.890" failures="0">
+  
+  <testcase name="Api Endpoints for zamupay should send a payment order request with token" time="0.847" classname="should send a payment order request with token"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:51:39" tests="0" file="cypress\e2e\2-advanced-examples\spies_stubs_clocks.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Spies, Stubs, and Clock" timestamp="2023-05-29T09:51:39" tests="7" time="8.358" failures="0">
+  
+  <testcase name="Spies, Stubs, and Clock cy.spy() - wrap a method in a spy" time="0.858" classname="cy.spy() - wrap a method in a spy"></testcase>
+  
+  <testcase name="Spies, Stubs, and Clock cy.spy() retries until assertions pass" time="2.600" classname="cy.spy() retries until assertions pass"></testcase>
+  
+  <testcase name="Spies, Stubs, and Clock cy.stub() - create a stub and/or replace a function with stub" time="0.361" classname="cy.stub() - create a stub and/or replace a function with stub"></testcase>
+  
+  <testcase name="Spies, Stubs, and Clock cy.clock() - control time in the browser" time="0.498" classname="cy.clock() - control time in the browser"></testcase>
+  
+  <testcase name="Spies, Stubs, and Clock cy.tick() - move time in the browser" time="0.697" classname="cy.tick() - move time in the browser"></testcase>
+  
+  <testcase name="Spies, Stubs, and Clock cy.stub() matches depending on arguments" time="0.114" classname="cy.stub() matches depending on arguments"></testcase>
+  
+  <testcase name="Spies, Stubs, and Clock matches call arguments using Sinon matchers" time="0.116" classname="matches call arguments using Sinon matchers"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:52:09" tests="0" file="cypress\e2e\2-advanced-examples\traversal.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Traversal" timestamp="2023-05-29T09:52:09" tests="18" time="12.891" failures="0">
+  
+  <testcase name="Traversal .children() - get child DOM elements" time="1.084" classname=".children() - get child DOM elements"></testcase>
+  
+  <testcase name="Traversal .closest() - get closest ancestor DOM element" time="0.463" classname=".closest() - get closest ancestor DOM element"></testcase>
+  
+  <testcase name="Traversal .eq() - get a DOM element at a specific index" time="0.499" classname=".eq() - get a DOM element at a specific index"></testcase>
+  
+  <testcase name="Traversal .filter() - get DOM elements that match the selector" time="0.500" classname=".filter() - get DOM elements that match the selector"></testcase>
+  
+  <testcase name="Traversal .find() - get descendant DOM elements of the selector" time="0.547" classname=".find() - get descendant DOM elements of the selector"></testcase>
+  
+  <testcase name="Traversal .first() - get first DOM element" time="0.476" classname=".first() - get first DOM element"></testcase>
+  
+  <testcase name="Traversal .last() - get last DOM element" time="0.418" classname=".last() - get last DOM element"></testcase>
+  
+  <testcase name="Traversal .next() - get next sibling DOM element" time="0.465" classname=".next() - get next sibling DOM element"></testcase>
+  
+  <testcase name="Traversal .nextAll() - get all next sibling DOM elements" time="0.491" classname=".nextAll() - get all next sibling DOM elements"></testcase>
+  
+  <testcase name="Traversal .nextUntil() - get next sibling DOM elements until next el" time="0.408" classname=".nextUntil() - get next sibling DOM elements until next el"></testcase>
+  
+  <testcase name="Traversal .not() - remove DOM elements from set of DOM elements" time="0.412" classname=".not() - remove DOM elements from set of DOM elements"></testcase>
+  
+  <testcase name="Traversal .parent() - get parent DOM element from DOM elements" time="0.511" classname=".parent() - get parent DOM element from DOM elements"></testcase>
+  
+  <testcase name="Traversal .parents() - get parent DOM elements from DOM elements" time="0.626" classname=".parents() - get parent DOM elements from DOM elements"></testcase>
+  
+  <testcase name="Traversal .parentsUntil() - get parent DOM elements from DOM elements until el" time="0.498" classname=".parentsUntil() - get parent DOM elements from DOM elements until el"></testcase>
+  
+  <testcase name="Traversal .prev() - get previous sibling DOM element" time="0.430" classname=".prev() - get previous sibling DOM element"></testcase>
+  
+  <testcase name="Traversal .prevAll() - get all previous sibling DOM elements" time="0.395" classname=".prevAll() - get all previous sibling DOM elements"></testcase>
+  
+  <testcase name="Traversal .prevUntil() - get all previous sibling DOM elements until el" time="0.429" classname=".prevUntil() - get all previous sibling DOM elements until el"></testcase>
+  
+  <testcase name="Traversal .siblings() - get all sibling DOM elements" time="0.380" classname=".siblings() - get all sibling DOM elements"></testcase>
+  
+</testsuite>
+
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:47:58" tests="0" file="cypress\e2e\1-getting-started\todo.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="example to-do app" timestamp="2023-05-29T09:47:58" tests="3" time="0.000" failures="0">
+  
+  <testcase name="example to-do app displays two todo items by default" time="2.596" classname="displays two todo items by default"></testcase>
+  
+  <testcase name="example to-do app can add new todo items" time="1.032" classname="can add new todo items"></testcase>
+  
+  <testcase name="example to-do app can check off an item as completed" time="0.558" classname="can check off an item as completed"></testcase>
+  
+</testsuite>
+<testsuite name="with a checked task" timestamp="2023-05-29T09:48:06" tests="3" time="2.258" failures="0">
+  
+  <testcase name="example to-do app with a checked task can filter for uncompleted tasks" time="0.759" classname="can filter for uncompleted tasks"></testcase>
+  
+  <testcase name="example to-do app with a checked task can filter for completed tasks" time="0.773" classname="can filter for completed tasks"></testcase>
+  
+  <testcase name="example to-do app with a checked task can delete all completed tasks" time="0.671" classname="can delete all completed tasks"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:50:28" tests="0" file="cypress\e2e\2-advanced-examples\misc.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Misc" timestamp="2023-05-29T09:50:29" tests="4" time="0.000" failures="1">
+  
+  <testcase name="Misc .end() - end the command chain" time="1.165" classname=".end() - end the command chain"></testcase>
+  
+  <testcase name="Misc cy.exec() - execute a system command" time="0.000" classname="cy.exec() - execute a system command">
+    
+    <failure message="`cy.exec(&apos;echo Jane Lane&apos;)` failed because the command exited with a non-zero code.
+
+Pass `{failOnNonZeroExit: false}` to ignore exit code failures.
+
+Information about the failure:
+Code: 127
+
+Stderr:
+/c/Program: Files\Git\usr\bin\bash.exe: No such file or directory
+
+https://on.cypress.io/exec" type="CypressError"><![CDATA[CypressError: `cy.exec('echo Jane Lane')` failed because the command exited with a non-zero code.
+
+Pass `{failOnNonZeroExit: false}` to ignore exit code failures.
+
+Information about the failure:
+Code: 127
+
+Stderr:
+/c/Program: Files\Git\usr\bin\bash.exe: No such file or directory
+
+https://on.cypress.io/exec
+    at <unknown> (https://example.cypress.io/__cypress/runner/cypress_runner.js:146089:85)
+    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:18744:23)
+    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:16679:31)
+    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:16736:18)
+    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:16781:10)
+    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:16861:18)
+    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:13451:12)
+    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:13444:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:13460:5)
+    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:13330:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/2-advanced-examples/misc.cy.js:54:7)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Misc cy.focused() - get the DOM element that has focus" time="0.763" classname="cy.focused() - get the DOM element that has focus"></testcase>
+  
+  <testcase name="Misc cy.wrap() - wrap an object" time="0.420" classname="cy.wrap() - wrap an object"></testcase>
+  
+</testsuite>
+<testsuite name="Cypress.Screenshot" timestamp="2023-05-29T09:50:35" tests="2" time="2.821" failures="0">
+  
+  <testcase name="Misc Cypress.Screenshot cy.screenshot() - take a screenshot" time="2.316" classname="cy.screenshot() - take a screenshot"></testcase>
+  
+  <testcase name="Misc Cypress.Screenshot Cypress.Screenshot.defaults() - change default config of screenshots" time="0.465" classname="Cypress.Screenshot.defaults() - change default config of screenshots"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T10:01:35" tests="0" file="cypress\e2e\api\TransactionRoutes.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Being able to retrieve transactional routes in zamupay" timestamp="2023-05-29T10:01:35" tests="1" time="0.634" failures="0">
+  
+  <testcase name="Being able to retrieve transactional routes in zamupay should perform a GET request " time="0.621" classname="should perform a GET request "></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:54:06" tests="0" file="cypress\e2e\visual\login.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Login Test" timestamp="2023-05-29T09:54:06" tests="4" time="92.078" failures="4">
+  
+  <testcase name="Login Test should successfully login with valid credentials for the super user" time="0.000" classname="should successfully login with valid credentials for the super user">
+    
+    <failure message="Timed out retrying after 10000ms: Expected to find element: `#welcome-message`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#welcome-message`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:14:33)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Login Test should successfully login with valid credentials for the customer admin" time="0.000" classname="should successfully login with valid credentials for the customer admin">
+    
+    <failure message="Timed out retrying after 10000ms: Expected to find element: `li`, but never found it. Queried from:
+
+              &gt; cy.get(div)" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `li`, but never found it. Queried from:
+
+              > cy.get(div)
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:22:33)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Login Test should display an error message for invalid credentials the super user" time="0.000" classname="should display an error message for invalid credentials the super user">
+    
+    <failure message="Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:36:9)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Login Test should display an error message for invalid credentials the customer admin" time="0.000" classname="should display an error message for invalid credentials the customer admin">
+    
+    <failure message="Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:46:11)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:51:25" tests="0" file="cypress\e2e\2-advanced-examples\querying.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Querying" timestamp="2023-05-29T09:51:25" tests="5" time="7.135" failures="0">
+  
+  <testcase name="Querying cy.get() - query DOM elements" time="1.004" classname="cy.get() - query DOM elements"></testcase>
+  
+  <testcase name="Querying cy.contains() - query DOM elements with matching content" time="0.600" classname="cy.contains() - query DOM elements with matching content"></testcase>
+  
+  <testcase name="Querying .within() - query DOM elements within a specific element" time="0.440" classname=".within() - query DOM elements within a specific element"></testcase>
+  
+  <testcase name="Querying cy.root() - query the root DOM element" time="0.412" classname="cy.root() - query the root DOM element"></testcase>
+  
+  <testcase name="Querying best practices - selecting elements" time="1.534" classname="best practices - selecting elements"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:50:46" tests="0" file="cypress\e2e\2-advanced-examples\navigation.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Navigation" timestamp="2023-05-29T09:50:46" tests="3" time="9.200" failures="0">
+  
+  <testcase name="Navigation cy.go() - go back or forward in the browser&apos;s history" time="3.160" classname="cy.go() - go back or forward in the browser&apos;s history"></testcase>
+  
+  <testcase name="Navigation cy.reload() - reload the page" time="1.407" classname="cy.reload() - reload the page"></testcase>
+  
+  <testcase name="Navigation cy.visit() - visit a remote url" time="1.284" classname="cy.visit() - visit a remote url"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:49:28" tests="0" file="cypress\e2e\2-advanced-examples\connectors.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Connectors" timestamp="2023-05-29T09:49:28" tests="4" time="0.000" failures="0">
+  
+  <testcase name="Connectors .each() - iterate over an array of elements" time="0.736" classname=".each() - iterate over an array of elements"></testcase>
+  
+  <testcase name="Connectors .its() - get properties on the current subject" time="0.484" classname=".its() - get properties on the current subject"></testcase>
+  
+  <testcase name="Connectors .invoke() - invoke a function on the current subject" time="0.421" classname=".invoke() - invoke a function on the current subject"></testcase>
+  
+  <testcase name="Connectors .spread() - spread an array as individual args to callback function" time="0.429" classname=".spread() - spread an array as individual args to callback function"></testcase>
+  
+</testsuite>
+<testsuite name=".then()" timestamp="2023-05-29T09:49:33" tests="4" time="1.634" failures="0">
+  
+  <testcase name="Connectors .then() invokes a callback function with the current subject" time="0.455" classname="invokes a callback function with the current subject"></testcase>
+  
+  <testcase name="Connectors .then() yields the returned value to the next command" time="0.337" classname="yields the returned value to the next command"></testcase>
+  
+  <testcase name="Connectors .then() yields the original subject without return" time="0.386" classname="yields the original subject without return"></testcase>
+  
+  <testcase name="Connectors .then() yields the value yielded by the last Cypress command inside" time="0.369" classname="yields the value yielded by the last Cypress command inside"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:48:17" tests="0" file="cypress\e2e\2-advanced-examples\actions.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Actions" timestamp="2023-05-29T09:48:17" tests="14" time="28.628" failures="0">
+  
+  <testcase name="Actions .type() - type into a DOM element" time="5.764" classname=".type() - type into a DOM element"></testcase>
+  
+  <testcase name="Actions .focus() - focus on a DOM element" time="0.932" classname=".focus() - focus on a DOM element"></testcase>
+  
+  <testcase name="Actions .blur() - blur off a DOM element" time="0.984" classname=".blur() - blur off a DOM element"></testcase>
+  
+  <testcase name="Actions .clear() - clears an input or textarea element" time="1.066" classname=".clear() - clears an input or textarea element"></testcase>
+  
+  <testcase name="Actions .submit() - submit a form" time="0.935" classname=".submit() - submit a form"></testcase>
+  
+  <testcase name="Actions .click() - click on a DOM element" time="4.894" classname=".click() - click on a DOM element"></testcase>
+  
+  <testcase name="Actions .dblclick() - double click on a DOM element" time="0.724" classname=".dblclick() - double click on a DOM element"></testcase>
+  
+  <testcase name="Actions .rightclick() - right click on a DOM element" time="0.576" classname=".rightclick() - right click on a DOM element"></testcase>
+  
+  <testcase name="Actions .check() - check a checkbox or radio element" time="1.996" classname=".check() - check a checkbox or radio element"></testcase>
+  
+  <testcase name="Actions .uncheck() - uncheck a checkbox element" time="1.999" classname=".uncheck() - uncheck a checkbox element"></testcase>
+  
+  <testcase name="Actions .select() - select an option in a &lt;select&gt; element" time="1.720" classname=".select() - select an option in a &lt;select&gt; element"></testcase>
+  
+  <testcase name="Actions .scrollIntoView() - scroll an element into view" time="0.582" classname=".scrollIntoView() - scroll an element into view"></testcase>
+  
+  <testcase name="Actions .trigger() - trigger an event on a DOM element" time="0.543" classname=".trigger() - trigger an event on a DOM element"></testcase>
+  
+  <testcase name="Actions cy.scrollTo() - scroll the window or element to a position" time="2.421" classname="cy.scrollTo() - scroll the window or element to a position"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T10:01:30" tests="0" file="cypress\e2e\api\payment_order_originator.js" time="0.000" failures="0"></testsuite>
+<testsuite name="GET Request" timestamp="2023-05-29T10:01:30" tests="1" time="0.644" failures="0">
+  
+  <testcase name="GET Request should make a GET request with originatorid, id type, and token" time="0.552" classname="should make a GET request with originatorid, id type, and token"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:51:55" tests="0" file="cypress\e2e\2-advanced-examples\storage.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Local Storage / Session Storage" timestamp="2023-05-29T09:51:55" tests="5" time="6.786" failures="0">
+  
+  <testcase name="Local Storage / Session Storage cy.clearLocalStorage() - clear all data in localStorage for the current origin" time="1.386" classname="cy.clearLocalStorage() - clear all data in localStorage for the current origin"></testcase>
+  
+  <testcase name="Local Storage / Session Storage cy.getAllLocalStorage() - get all data in localStorage for all origins" time="0.594" classname="cy.getAllLocalStorage() - get all data in localStorage for all origins"></testcase>
+  
+  <testcase name="Local Storage / Session Storage cy.clearAllLocalStorage() - clear all data in localStorage for all origins" time="0.546" classname="cy.clearAllLocalStorage() - clear all data in localStorage for all origins"></testcase>
+  
+  <testcase name="Local Storage / Session Storage cy.getAllSessionStorage() - get all data in sessionStorage for all origins" time="0.499" classname="cy.getAllSessionStorage() - get all data in sessionStorage for all origins"></testcase>
+  
+  <testcase name="Local Storage / Session Storage cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins" time="0.515" classname="cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T10:01:47" tests="0" file="cypress\e2e\visual\login.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Login Test" timestamp="2023-05-29T10:01:47" tests="4" time="87.551" failures="4">
+  
+  <testcase name="Login Test should successfully login with valid credentials for the super user" time="0.000" classname="should successfully login with valid credentials for the super user">
+    
+    <failure message="Timed out retrying after 10000ms: Expected to find element: `#welcome-message`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#welcome-message`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:14:33)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Login Test should successfully login with valid credentials for the customer admin" time="0.000" classname="should successfully login with valid credentials for the customer admin">
+    
+    <failure message="Timed out retrying after 10000ms: Expected to find element: `li`, but never found it. Queried from:
+
+              &gt; cy.get(div)" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `li`, but never found it. Queried from:
+
+              > cy.get(div)
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:22:33)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Login Test should display an error message for invalid credentials the super user" time="0.000" classname="should display an error message for invalid credentials the super user">
+    
+    <failure message="Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:36:9)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Login Test should display an error message for invalid credentials the customer admin" time="0.000" classname="should display an error message for invalid credentials the customer admin">
+    
+    <failure message="Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:46:11)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T10:01:07" tests="0" file="cypress\e2e\api\express_deposit_request_get.js" time="0.000" failures="0"></testsuite>
+<testsuite name="GET Request" timestamp="2023-05-29T10:01:07" tests="1" time="2.042" failures="0">
+  
+  <testcase name="GET Request should make a GET request with originatorid and token" time="1.955" classname="should make a GET request with originatorid and token"></testcase>
+  
+</testsuite>
+
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:53:25" tests="0" file="cypress\e2e\api\express_deposit_request_get.js" time="0.000" failures="0"></testsuite>
+<testsuite name="GET Request" timestamp="2023-05-29T09:53:25" tests="1" time="2.574" failures="1">
+  
+  <testcase name="GET Request should make a GET request with originatorid and token" time="0.000" classname="should make a GET request with originatorid and token">
+    
+    <failure message="`cy.request()` failed on:
+
+https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId=3b0503e9-16a3-4b71-9323-0e6e155a9a26
+
+The response we received from your web server was:
+
+  &gt; 401: Unauthorized
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId=3b0503e9-16a3-4b71-9323-0e6e155a9a26
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;Authorization&quot;: &quot;Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5QzFDNjNCQ0Q0QjU4OEFDOUVFRjlBNDc5RDg1ODUxIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODQ5MTc0NjMsImV4cCI6MTY4NDkyMTA2MywiaXNzIjoiaHR0cHM6Ly9hdXRoLnphbXVwYXkuY29tIiwiYXVkIjoiUHlQYXlfYXBpIiwiY2xpZW50X2lkIjoiT21lZ2EiLCJjbGllbnRfY3VzdG9tZXJfaWQiOiJmMzZlNTdmNy04ZmI2LWVkMTEtYWQ0OS0wZWUwMGU4OTdmNTIiLCJjbGllbnRfY3VzdG9tZXJfdHlwZSI6IkNvcnBvcmF0ZSIsImNsaWVudF9jdXN0b21lcl9jYXRlZ29yeSI6IlNlbGZNYW5hZ2VkIiwiY2xpZW50X3dlYnNpdGUiOiJiZXRhLnphbXVwYXkuY29tIiwianRpIjoiMEI0NDAyQjQ1NUY1MDY2OTM1QkJCMTM4NkEyRTVCRDgiLCJpYXQiOjE2ODQ5MTc0NjMsInNjb3BlIjpbIlB5UGF5X2FwaSJdfQ.fog8xaWiJ7TTMX4XIqbwAG9rlyceVpRM2Q9dnaNjYSv8Lc_8jp2B-n_0UcpAmdE7Zeiy9n3X2lASFTMQ8DJSKJCDH4tLDvcvns8LdemSYMNy4sFgv_HREptuE0CsYZQ0yZzeIWbTT1KkEv5Kpz197_9yoA5MZkWPNXxGevpK4msIDIhtEukLVGn5RK1_hwW2H2WeXxd-wwMtgRWeEJMyLDLnUa-uUbtHwHqgbsvXk2IbMtZXMDTlbHsGP7klH02PJIDNMBG4PFQYKCCZBKD8noOSTbKbL4rUu_j_XPJN2bRgCID2HSGNxYgCztPq1QDCfMPtP_sRen-4ZG3iIlyi7w&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.13.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;*/*&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  &quot;transfer-encoding&quot;: &quot;chunked&quot;,
+  &quot;www-authenticate&quot;: &quot;Bearer error=\&quot;invalid_token\&quot;, error_description=\&quot;The token expired at &apos;05/24/2023 09:37:43&apos;\&quot;&quot;,
+  &quot;x-rate-limit-limit&quot;: &quot;7d&quot;,
+  &quot;x-rate-limit-remaining&quot;: &quot;9999996&quot;,
+  &quot;x-rate-limit-reset&quot;: &quot;2023-06-05T09:40:25.8297619Z&quot;,
+  &quot;date&quot;: &quot;Mon, 29 May 2023 09:53:27 GMT&quot;
+}
+Body: 
+
+
+https://on.cypress.io/request" type="CypressError"><![CDATA[CypressError: `cy.request()` failed on:
+
+https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId=3b0503e9-16a3-4b71-9323-0e6e155a9a26
+
+The response we received from your web server was:
+
+  > 401: Unauthorized
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId=3b0503e9-16a3-4b71-9323-0e6e155a9a26
+Headers: {
+  "Connection": "keep-alive",
+  "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5QzFDNjNCQ0Q0QjU4OEFDOUVFRjlBNDc5RDg1ODUxIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODQ5MTc0NjMsImV4cCI6MTY4NDkyMTA2MywiaXNzIjoiaHR0cHM6Ly9hdXRoLnphbXVwYXkuY29tIiwiYXVkIjoiUHlQYXlfYXBpIiwiY2xpZW50X2lkIjoiT21lZ2EiLCJjbGllbnRfY3VzdG9tZXJfaWQiOiJmMzZlNTdmNy04ZmI2LWVkMTEtYWQ0OS0wZWUwMGU4OTdmNTIiLCJjbGllbnRfY3VzdG9tZXJfdHlwZSI6IkNvcnBvcmF0ZSIsImNsaWVudF9jdXN0b21lcl9jYXRlZ29yeSI6IlNlbGZNYW5hZ2VkIiwiY2xpZW50X3dlYnNpdGUiOiJiZXRhLnphbXVwYXkuY29tIiwianRpIjoiMEI0NDAyQjQ1NUY1MDY2OTM1QkJCMTM4NkEyRTVCRDgiLCJpYXQiOjE2ODQ5MTc0NjMsInNjb3BlIjpbIlB5UGF5X2FwaSJdfQ.fog8xaWiJ7TTMX4XIqbwAG9rlyceVpRM2Q9dnaNjYSv8Lc_8jp2B-n_0UcpAmdE7Zeiy9n3X2lASFTMQ8DJSKJCDH4tLDvcvns8LdemSYMNy4sFgv_HREptuE0CsYZQ0yZzeIWbTT1KkEv5Kpz197_9yoA5MZkWPNXxGevpK4msIDIhtEukLVGn5RK1_hwW2H2WeXxd-wwMtgRWeEJMyLDLnUa-uUbtHwHqgbsvXk2IbMtZXMDTlbHsGP7klH02PJIDNMBG4PFQYKCCZBKD8noOSTbKbL4rUu_j_XPJN2bRgCID2HSGNxYgCztPq1QDCfMPtP_sRen-4ZG3iIlyi7w",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.13.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate"
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  "transfer-encoding": "chunked",
+  "www-authenticate": "Bearer error=\"invalid_token\", error_description=\"The token expired at '05/24/2023 09:37:43'\"",
+  "x-rate-limit-limit": "7d",
+  "x-rate-limit-remaining": "9999996",
+  "x-rate-limit-reset": "2023-06-05T09:40:25.8297619Z",
+  "date": "Mon, 29 May 2023 09:53:27 GMT"
+}
+Body: 
+
+
+https://on.cypress.io/request
+    at <unknown> (http://localhost:56180/__cypress/runner/cypress_runner.js:149154:80)
+    at tryCatcher (http://localhost:56180/__cypress/runner/cypress_runner.js:18744:23)
+    at Promise._settlePromiseFromHandler (http://localhost:56180/__cypress/runner/cypress_runner.js:16679:31)
+    at Promise._settlePromise (http://localhost:56180/__cypress/runner/cypress_runner.js:16736:18)
+    at Promise._settlePromise0 (http://localhost:56180/__cypress/runner/cypress_runner.js:16781:10)
+    at Promise._settlePromises (http://localhost:56180/__cypress/runner/cypress_runner.js:16861:18)
+    at _drainQueueStep (http://localhost:56180/__cypress/runner/cypress_runner.js:13451:12)
+    at _drainQueue (http://localhost:56180/__cypress/runner/cypress_runner.js:13444:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:56180/__cypress/runner/cypress_runner.js:13460:5)
+    at Async.drainQueues (http://localhost:56180/__cypress/runner/cypress_runner.js:13330:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/api/express_deposit_request_get.js:8:13)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:53:54" tests="0" file="cypress\e2e\api\TransactionRoutes.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Being able to retrieve transactional routes in zamupay" timestamp="2023-05-29T09:53:54" tests="1" time="0.646" failures="0">
+  
+  <testcase name="Being able to retrieve transactional routes in zamupay should perform a GET request " time="0.626" classname="should perform a GET request "></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:50:18" tests="0" file="cypress\e2e\2-advanced-examples\location.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Location" timestamp="2023-05-29T09:50:18" tests="3" time="4.687" failures="0">
+  
+  <testcase name="Location cy.hash() - get the current URL hash" time="0.773" classname="cy.hash() - get the current URL hash"></testcase>
+  
+  <testcase name="Location cy.location() - get window.location" time="0.377" classname="cy.location() - get window.location"></testcase>
+  
+  <testcase name="Location cy.url() - get the current URL" time="0.374" classname="cy.url() - get the current URL"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2023-05-29T09:53:49" tests="0" file="cypress\e2e\api\payment_order_originator.js" time="0.000" failures="0"></testsuite>
+<testsuite name="GET Request" timestamp="2023-05-29T09:53:49" tests="1" time="0.783" failures="0">
+  
+  <testcase name="GET Request should make a GET request with originatorid, id type, and token" time="0.743" classname="should make a GET request with originatorid, id type, and token"></testcase>
+  
+</testsuite>
+
+</testsuites>

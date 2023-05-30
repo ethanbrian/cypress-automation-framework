@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.716" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-29T09:53:54" tests="0" file="cypress\e2e\api\TransactionRoutes.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Being able to retrieve transactional routes in zamupay" timestamp="2023-05-29T09:53:54" tests="1" time="0.646" failures="0">
+    <testcase name="Being able to retrieve transactional routes in zamupay should perform a GET request " time="0.626" classname="should perform a GET request ">
+    </testcase>
+  </testsuite>
+</testsuites>

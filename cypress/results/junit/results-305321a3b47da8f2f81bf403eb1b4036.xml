@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.960" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-29T10:01:24" tests="0" file="cypress\e2e\api\paymentorder.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Api Endpoints for zamupay" timestamp="2023-05-29T10:01:24" tests="1" time="0.890" failures="0">
+    <testcase name="Api Endpoints for zamupay should send a payment order request with token" time="0.847" classname="should send a payment order request with token">
+    </testcase>
+  </testsuite>
+</testsuites>

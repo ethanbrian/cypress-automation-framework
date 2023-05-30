@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.615" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-29T09:53:25" tests="0" file="cypress\e2e\api\express_deposit_request_get.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="GET Request" timestamp="2023-05-29T09:53:25" tests="1" time="2.574" failures="1">
+    <testcase name="GET Request should make a GET request with originatorid and token" time="0.000" classname="should make a GET request with originatorid and token">
+      <failure message="`cy.request()` failed on:
+
+https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId=3b0503e9-16a3-4b71-9323-0e6e155a9a26
+
+The response we received from your web server was:
+
+  &gt; 401: Unauthorized
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId=3b0503e9-16a3-4b71-9323-0e6e155a9a26
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;Authorization&quot;: &quot;Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5QzFDNjNCQ0Q0QjU4OEFDOUVFRjlBNDc5RDg1ODUxIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODQ5MTc0NjMsImV4cCI6MTY4NDkyMTA2MywiaXNzIjoiaHR0cHM6Ly9hdXRoLnphbXVwYXkuY29tIiwiYXVkIjoiUHlQYXlfYXBpIiwiY2xpZW50X2lkIjoiT21lZ2EiLCJjbGllbnRfY3VzdG9tZXJfaWQiOiJmMzZlNTdmNy04ZmI2LWVkMTEtYWQ0OS0wZWUwMGU4OTdmNTIiLCJjbGllbnRfY3VzdG9tZXJfdHlwZSI6IkNvcnBvcmF0ZSIsImNsaWVudF9jdXN0b21lcl9jYXRlZ29yeSI6IlNlbGZNYW5hZ2VkIiwiY2xpZW50X3dlYnNpdGUiOiJiZXRhLnphbXVwYXkuY29tIiwianRpIjoiMEI0NDAyQjQ1NUY1MDY2OTM1QkJCMTM4NkEyRTVCRDgiLCJpYXQiOjE2ODQ5MTc0NjMsInNjb3BlIjpbIlB5UGF5X2FwaSJdfQ.fog8xaWiJ7TTMX4XIqbwAG9rlyceVpRM2Q9dnaNjYSv8Lc_8jp2B-n_0UcpAmdE7Zeiy9n3X2lASFTMQ8DJSKJCDH4tLDvcvns8LdemSYMNy4sFgv_HREptuE0CsYZQ0yZzeIWbTT1KkEv5Kpz197_9yoA5MZkWPNXxGevpK4msIDIhtEukLVGn5RK1_hwW2H2WeXxd-wwMtgRWeEJMyLDLnUa-uUbtHwHqgbsvXk2IbMtZXMDTlbHsGP7klH02PJIDNMBG4PFQYKCCZBKD8noOSTbKbL4rUu_j_XPJN2bRgCID2HSGNxYgCztPq1QDCfMPtP_sRen-4ZG3iIlyi7w&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.13.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;*/*&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  &quot;transfer-encoding&quot;: &quot;chunked&quot;,
+  &quot;www-authenticate&quot;: &quot;Bearer error=\&quot;invalid_token\&quot;, error_description=\&quot;The token expired at &apos;05/24/2023 09:37:43&apos;\&quot;&quot;,
+  &quot;x-rate-limit-limit&quot;: &quot;7d&quot;,
+  &quot;x-rate-limit-remaining&quot;: &quot;9999996&quot;,
+  &quot;x-rate-limit-reset&quot;: &quot;2023-06-05T09:40:25.8297619Z&quot;,
+  &quot;date&quot;: &quot;Mon, 29 May 2023 09:53:27 GMT&quot;
+}
+Body: 
+
+
+https://on.cypress.io/request" type="CypressError"><![CDATA[CypressError: `cy.request()` failed on:
+
+https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId=3b0503e9-16a3-4b71-9323-0e6e155a9a26
+
+The response we received from your web server was:
+
+  > 401: Unauthorized
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId=3b0503e9-16a3-4b71-9323-0e6e155a9a26
+Headers: {
+  "Connection": "keep-alive",
+  "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5QzFDNjNCQ0Q0QjU4OEFDOUVFRjlBNDc5RDg1ODUxIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODQ5MTc0NjMsImV4cCI6MTY4NDkyMTA2MywiaXNzIjoiaHR0cHM6Ly9hdXRoLnphbXVwYXkuY29tIiwiYXVkIjoiUHlQYXlfYXBpIiwiY2xpZW50X2lkIjoiT21lZ2EiLCJjbGllbnRfY3VzdG9tZXJfaWQiOiJmMzZlNTdmNy04ZmI2LWVkMTEtYWQ0OS0wZWUwMGU4OTdmNTIiLCJjbGllbnRfY3VzdG9tZXJfdHlwZSI6IkNvcnBvcmF0ZSIsImNsaWVudF9jdXN0b21lcl9jYXRlZ29yeSI6IlNlbGZNYW5hZ2VkIiwiY2xpZW50X3dlYnNpdGUiOiJiZXRhLnphbXVwYXkuY29tIiwianRpIjoiMEI0NDAyQjQ1NUY1MDY2OTM1QkJCMTM4NkEyRTVCRDgiLCJpYXQiOjE2ODQ5MTc0NjMsInNjb3BlIjpbIlB5UGF5X2FwaSJdfQ.fog8xaWiJ7TTMX4XIqbwAG9rlyceVpRM2Q9dnaNjYSv8Lc_8jp2B-n_0UcpAmdE7Zeiy9n3X2lASFTMQ8DJSKJCDH4tLDvcvns8LdemSYMNy4sFgv_HREptuE0CsYZQ0yZzeIWbTT1KkEv5Kpz197_9yoA5MZkWPNXxGevpK4msIDIhtEukLVGn5RK1_hwW2H2WeXxd-wwMtgRWeEJMyLDLnUa-uUbtHwHqgbsvXk2IbMtZXMDTlbHsGP7klH02PJIDNMBG4PFQYKCCZBKD8noOSTbKbL4rUu_j_XPJN2bRgCID2HSGNxYgCztPq1QDCfMPtP_sRen-4ZG3iIlyi7w",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.13.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate"
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  "transfer-encoding": "chunked",
+  "www-authenticate": "Bearer error=\"invalid_token\", error_description=\"The token expired at '05/24/2023 09:37:43'\"",
+  "x-rate-limit-limit": "7d",
+  "x-rate-limit-remaining": "9999996",
+  "x-rate-limit-reset": "2023-06-05T09:40:25.8297619Z",
+  "date": "Mon, 29 May 2023 09:53:27 GMT"
+}
+Body: 
+
+
+https://on.cypress.io/request
+    at <unknown> (http://localhost:56180/__cypress/runner/cypress_runner.js:149154:80)
+    at tryCatcher (http://localhost:56180/__cypress/runner/cypress_runner.js:18744:23)
+    at Promise._settlePromiseFromHandler (http://localhost:56180/__cypress/runner/cypress_runner.js:16679:31)
+    at Promise._settlePromise (http://localhost:56180/__cypress/runner/cypress_runner.js:16736:18)
+    at Promise._settlePromise0 (http://localhost:56180/__cypress/runner/cypress_runner.js:16781:10)
+    at Promise._settlePromises (http://localhost:56180/__cypress/runner/cypress_runner.js:16861:18)
+    at _drainQueueStep (http://localhost:56180/__cypress/runner/cypress_runner.js:13451:12)
+    at _drainQueue (http://localhost:56180/__cypress/runner/cypress_runner.js:13444:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:56180/__cypress/runner/cypress_runner.js:13460:5)
+    at Async.drainQueues (http://localhost:56180/__cypress/runner/cypress_runner.js:13330:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/api/express_deposit_request_get.js:8:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

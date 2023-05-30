@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.499" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-29T09:50:28" tests="0" file="cypress\e2e\2-advanced-examples\misc.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Misc" timestamp="2023-05-29T09:50:29" tests="4" time="0.000" failures="1">
+    <testcase name="Misc .end() - end the command chain" time="1.165" classname=".end() - end the command chain">
+    </testcase>
+    <testcase name="Misc cy.exec() - execute a system command" time="0.000" classname="cy.exec() - execute a system command">
+      <failure message="`cy.exec(&apos;echo Jane Lane&apos;)` failed because the command exited with a non-zero code.
+
+Pass `{failOnNonZeroExit: false}` to ignore exit code failures.
+
+Information about the failure:
+Code: 127
+
+Stderr:
+/c/Program: Files\Git\usr\bin\bash.exe: No such file or directory
+
+https://on.cypress.io/exec" type="CypressError"><![CDATA[CypressError: `cy.exec('echo Jane Lane')` failed because the command exited with a non-zero code.
+
+Pass `{failOnNonZeroExit: false}` to ignore exit code failures.
+
+Information about the failure:
+Code: 127
+
+Stderr:
+/c/Program: Files\Git\usr\bin\bash.exe: No such file or directory
+
+https://on.cypress.io/exec
+    at <unknown> (https://example.cypress.io/__cypress/runner/cypress_runner.js:146089:85)
+    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:18744:23)
+    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:16679:31)
+    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:16736:18)
+    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:16781:10)
+    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:16861:18)
+    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:13451:12)
+    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:13444:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:13460:5)
+    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:13330:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/2-advanced-examples/misc.cy.js:54:7)]]></failure>
+    </testcase>
+    <testcase name="Misc cy.focused() - get the DOM element that has focus" time="0.763" classname="cy.focused() - get the DOM element that has focus">
+    </testcase>
+    <testcase name="Misc cy.wrap() - wrap an object" time="0.420" classname="cy.wrap() - wrap an object">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.Screenshot" timestamp="2023-05-29T09:50:35" tests="2" time="2.821" failures="0">
+    <testcase name="Misc Cypress.Screenshot cy.screenshot() - take a screenshot" time="2.316" classname="cy.screenshot() - take a screenshot">
+    </testcase>
+    <testcase name="Misc Cypress.Screenshot Cypress.Screenshot.defaults() - change default config of screenshots" time="0.465" classname="Cypress.Screenshot.defaults() - change default config of screenshots">
+    </testcase>
+  </testsuite>
+</testsuites>

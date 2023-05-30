@@ -8,5 +8,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     specPattern : "cypress/e2e/**/*.{js,jsx,ts,tsx,feature}",
+    reporter: 'cypress-multi-reporters',
+    reporterOptions: {
+      configFile: 'reporter-config.json'
+    }
   },
 });

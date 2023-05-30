@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="92.132" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2023-05-29T09:54:06" tests="0" file="cypress\e2e\visual\login.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login Test" timestamp="2023-05-29T09:54:06" tests="4" time="92.078" failures="4">
+    <testcase name="Login Test should successfully login with valid credentials for the super user" time="0.000" classname="should successfully login with valid credentials for the super user">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#welcome-message`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#welcome-message`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:14:33)]]></failure>
+    </testcase>
+    <testcase name="Login Test should successfully login with valid credentials for the customer admin" time="0.000" classname="should successfully login with valid credentials for the customer admin">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `li`, but never found it. Queried from:
+
+              &gt; cy.get(div)" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `li`, but never found it. Queried from:
+
+              > cy.get(div)
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:22:33)]]></failure>
+    </testcase>
+    <testcase name="Login Test should display an error message for invalid credentials the super user" time="0.000" classname="should display an error message for invalid credentials the super user">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:36:9)]]></failure>
+    </testcase>
+    <testcase name="Login Test should display an error message for invalid credentials the customer admin" time="0.000" classname="should display an error message for invalid credentials the customer admin">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#username`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/visual/login.js:46:11)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
