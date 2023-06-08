@@ -45,13 +45,6 @@ pipeline {
                 git 'https://github.com/ethanbrian/cypress-automation-framework.git'
             }
         }
-
-        stage('Clean Workspace') {
-        steps {
-        deleteDir() // This will delete the entire workspace
-    }
-}
-
         
         stage('Install Dependencies') {
             steps {
