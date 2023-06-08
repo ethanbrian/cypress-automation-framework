@@ -39,7 +39,7 @@ pipeline {
     agent any
     tools {
     // Install and configure Node.js
-    nodejs 'node'
+    Nodejs 'node'
   }
     
     stages {
