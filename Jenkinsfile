@@ -37,9 +37,13 @@
 
 pipeline {
     agent any
-    tools {
+     tools {
     // Install and configure Node.js
-    Nodejs 'node'
+    nodejs('node') {
+      // Configure Node.js installation
+      // Specify the Node.js version or label
+      // Set any additional properties if required
+    }
   }
     
     stages {
