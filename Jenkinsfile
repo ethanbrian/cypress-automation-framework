@@ -50,7 +50,7 @@ pipeline {
             steps {
                 bat 'npm install -g yarn'
                 bat 'yarn install' // or yarn install
-                bat 'yarn update'
+                bat 'yarn upgrade --latest'
             }
         }
         
