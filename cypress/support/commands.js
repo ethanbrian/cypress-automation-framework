@@ -32,7 +32,7 @@
   // Make the OAuth2 login request
   cy.request({
     method: 'POST',
-    url: 'https://auth.zamupay.com/connect/toke',
+    url: 'https://auth.zamupay.com/connect/token',
     form: true,
     body: {
       grant_type: 'client_credentials',
