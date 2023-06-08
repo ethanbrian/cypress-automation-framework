@@ -37,14 +37,7 @@
 
 pipeline {
     agent any
-     tools {
-    // Install and configure Node.js
-    nodejs('node') {
-      // Configure Node.js installation
-      // Specify the Node.js version or label
-      // Set any additional properties if required
-    }
-  }
+    tools{nodejs "node"}
     
     stages {
         stage('Clone Repository') {
