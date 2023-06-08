@@ -37,7 +37,10 @@
 
 pipeline {
     agent any
-    tools{Nodejs node}
+    tools {
+    // Install and configure Node.js
+    nodejs 'node'
+  }
     
     stages {
         stage('Clone Repository') {
