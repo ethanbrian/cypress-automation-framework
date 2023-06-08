@@ -48,8 +48,9 @@ pipeline {
         
         stage('Install Dependencies') {
             steps {
-                bat 'npm install' // or yarn install
-                bat 'npm update'
+                bat 'npm install -g yarn'
+                bat 'yarn install' // or yarn install
+                bat 'yarn update'
             }
         }
         
