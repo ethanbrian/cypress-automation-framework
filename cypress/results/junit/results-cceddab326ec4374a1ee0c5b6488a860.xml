@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.009" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-06-14T12:28:51" tests="0" file="cypress\e2e\api\payment_order_originator.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="GET Request" timestamp="2023-06-14T12:28:51" tests="1" time="0.865" failures="0">
+    <testcase name="GET Request should make a GET request with originatorid, id type, and token" time="0.870" classname="should make a GET request with originatorid, id type, and token">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.610" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-06-14T12:28:00" tests="0" file="cypress\e2e\api\TransactionRoutes.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Being able to retrieve transactional routes in zamupay" timestamp="2023-06-14T12:28:00" tests="1" time="4.480" failures="1">
+    <testcase name="Being able to retrieve transactional routes in zamupay should perform a GET request " time="0.000" classname="should perform a GET request ">
+      <failure message="`cy.request()` failed on:
+
+https://sandboxapi.zamupay.com/v1/transaction-routes/assigned-routes
+
+The response we received from your web server was:
+
+  &gt; 401: Unauthorized
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://sandboxapi.zamupay.com/v1/transaction-routes/assigned-routes
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;Authorization&quot;: &quot;Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5QzFDNjNCQ0Q0QjU4OEFDOUVFRjlBNDc5RDg1ODUxIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODUzNTQ0ODUsImV4cCI6MTY4NTM1ODA4NSwiaXNzIjoiaHR0cHM6Ly9hdXRoLnphbXVwYXkuY29tIiwiYXVkIjoiUHlQYXlfYXBpIiwiY2xpZW50X2lkIjoiT21lZ2EiLCJjbGllbnRfY3VzdG9tZXJfaWQiOiJmMzZlNTdmNy04ZmI2LWVkMTEtYWQ0OS0wZWUwMGU4OTdmNTIiLCJjbGllbnRfY3VzdG9tZXJfdHlwZSI6IkNvcnBvcmF0ZSIsImNsaWVudF9jdXN0b21lcl9jYXRlZ29yeSI6IlNlbGZNYW5hZ2VkIiwiY2xpZW50X3dlYnNpdGUiOiJiZXRhLnphbXVwYXkuY29tIiwianRpIjoiRDQ3NTRCRUE4QzMyQTg5REMzNkIzNDA4RUI0MzUzNDciLCJpYXQiOjE2ODUzNTQ0ODUsInNjb3BlIjpbIlB5UGF5X2FwaSJdfQ.GLYXuSc6vwwYEF-AtK0bxbZWgcIEfGJCm1DOd0OwvwK7fsEDObpM5W2OpRC8Sr9MrYOecsiZ9Rxp08kId6uHnR6sL6ztDV_MxprK7svfBlULQo4qV9EE_lIYxZSGEkck4jMZJvQ9LTpo7Un9v4QGHYrq6YobzwGqZsEbRNk8JqOY0Po8tRAkgIS7mwfFkfymWxazYHXYtk1j1Fw8zUdLxu9geYcSYHryhj3SdyxRWuiKhsa922vhBdGB78AGmWNcOkcamm9WxnMrwcv80zYWN0EbGJMtjgAJnKBHFs1BwDmbMCYWD9LByk8pb_Xn3Txoeeua4K47m0GD7FcqpTicwA&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.13.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;*/*&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  &quot;transfer-encoding&quot;: &quot;chunked&quot;,
+  &quot;www-authenticate&quot;: &quot;Bearer error=\&quot;invalid_token\&quot;, error_description=\&quot;The token expired at &apos;05/29/2023 11:01:25&apos;\&quot;&quot;,
+  &quot;x-rate-limit-limit&quot;: &quot;7d&quot;,
+  &quot;x-rate-limit-remaining&quot;: &quot;9995189&quot;,
+  &quot;x-rate-limit-reset&quot;: &quot;2023-06-21T08:15:23.9244249Z&quot;,
+  &quot;date&quot;: &quot;Wed, 14 Jun 2023 12:28:03 GMT&quot;
+}
+Body: 
+
+
+https://on.cypress.io/request" type="CypressError"><![CDATA[CypressError: `cy.request()` failed on:
+
+https://sandboxapi.zamupay.com/v1/transaction-routes/assigned-routes
+
+The response we received from your web server was:
+
+  > 401: Unauthorized
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://sandboxapi.zamupay.com/v1/transaction-routes/assigned-routes
+Headers: {
+  "Connection": "keep-alive",
+  "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5QzFDNjNCQ0Q0QjU4OEFDOUVFRjlBNDc5RDg1ODUxIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODUzNTQ0ODUsImV4cCI6MTY4NTM1ODA4NSwiaXNzIjoiaHR0cHM6Ly9hdXRoLnphbXVwYXkuY29tIiwiYXVkIjoiUHlQYXlfYXBpIiwiY2xpZW50X2lkIjoiT21lZ2EiLCJjbGllbnRfY3VzdG9tZXJfaWQiOiJmMzZlNTdmNy04ZmI2LWVkMTEtYWQ0OS0wZWUwMGU4OTdmNTIiLCJjbGllbnRfY3VzdG9tZXJfdHlwZSI6IkNvcnBvcmF0ZSIsImNsaWVudF9jdXN0b21lcl9jYXRlZ29yeSI6IlNlbGZNYW5hZ2VkIiwiY2xpZW50X3dlYnNpdGUiOiJiZXRhLnphbXVwYXkuY29tIiwianRpIjoiRDQ3NTRCRUE4QzMyQTg5REMzNkIzNDA4RUI0MzUzNDciLCJpYXQiOjE2ODUzNTQ0ODUsInNjb3BlIjpbIlB5UGF5X2FwaSJdfQ.GLYXuSc6vwwYEF-AtK0bxbZWgcIEfGJCm1DOd0OwvwK7fsEDObpM5W2OpRC8Sr9MrYOecsiZ9Rxp08kId6uHnR6sL6ztDV_MxprK7svfBlULQo4qV9EE_lIYxZSGEkck4jMZJvQ9LTpo7Un9v4QGHYrq6YobzwGqZsEbRNk8JqOY0Po8tRAkgIS7mwfFkfymWxazYHXYtk1j1Fw8zUdLxu9geYcSYHryhj3SdyxRWuiKhsa922vhBdGB78AGmWNcOkcamm9WxnMrwcv80zYWN0EbGJMtjgAJnKBHFs1BwDmbMCYWD9LByk8pb_Xn3Txoeeua4K47m0GD7FcqpTicwA",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.13.0 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate"
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  "transfer-encoding": "chunked",
+  "www-authenticate": "Bearer error=\"invalid_token\", error_description=\"The token expired at '05/29/2023 11:01:25'\"",
+  "x-rate-limit-limit": "7d",
+  "x-rate-limit-remaining": "9995189",
+  "x-rate-limit-reset": "2023-06-21T08:15:23.9244249Z",
+  "date": "Wed, 14 Jun 2023 12:28:03 GMT"
+}
+Body: 
+
+
+https://on.cypress.io/request
+    at <unknown> (http://localhost:64654/__cypress/runner/cypress_runner.js:149154:80)
+    at tryCatcher (http://localhost:64654/__cypress/runner/cypress_runner.js:18744:23)
+    at Promise._settlePromiseFromHandler (http://localhost:64654/__cypress/runner/cypress_runner.js:16679:31)
+    at Promise._settlePromise (http://localhost:64654/__cypress/runner/cypress_runner.js:16736:18)
+    at Promise._settlePromise0 (http://localhost:64654/__cypress/runner/cypress_runner.js:16781:10)
+    at Promise._settlePromises (http://localhost:64654/__cypress/runner/cypress_runner.js:16861:18)
+    at _drainQueueStep (http://localhost:64654/__cypress/runner/cypress_runner.js:13451:12)
+    at _drainQueue (http://localhost:64654/__cypress/runner/cypress_runner.js:13444:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:64654/__cypress/runner/cypress_runner.js:13460:5)
+    at Async.drainQueues (http://localhost:64654/__cypress/runner/cypress_runner.js:13330:14)
+From Your Spec Code:
+    at performGetRequest (webpack:///./cypress/support/apiutils.js:2:7)
+    at Context.eval (webpack:///./cypress/e2e/api/TransactionRoutes.js:8:6)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
