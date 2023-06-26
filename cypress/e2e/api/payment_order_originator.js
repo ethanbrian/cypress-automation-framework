@@ -6,7 +6,7 @@ describe('GET Request', () => {
       cy.fixture('payment_order_response.json').then((originatorid) => {
         cy.fixture('oauth2_token.json').then((token) => {
           cy.request({
-            method: 'GET',
+            method:'GET',
             url: 'https://sandboxapi.zamupay.com/v1/payment-order/check-status?Id='+originatorid.message.originatorConversationId+'&IdType=OriginatorConversationId',
             headers: {
               Authorization: `Bearer ${token.token}`,

@@ -6,8 +6,8 @@ describe('GET Request', () => {
       cy.fixture('express_deposit.json').then((originatorid) => {
         cy.fixture('oauth2_token.json').then((token) => {
           cy.request({
-            method: 'GET',
-            url: 'https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversationId='+originatorid.message.originatorConversationId,
+            method:'GET',
+            url: 'https://sandboxapi.zamupay.com/v1/express-deposit/check-status?OriginatorConversation='+originatorid.message.originatorConversationId,
             headers: {
               Authorization:`Bearer ${token.token}`,
             },
