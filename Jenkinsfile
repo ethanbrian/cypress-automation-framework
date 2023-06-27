@@ -57,7 +57,7 @@ pipeline {
         stage('Run Zamupay Rest Api Test Suites') {
         steps {
         timeout(time: 15, unit: 'MINUTES') {
-            bat 'yarn cypress run --headless --spec "cypress/e2e/api/paymentorder.js"'
+                bat 'yarn cypress run --record --key 66d9ea19-2da2-454d-8a89-b8853dd1afe3 --headless --spec "cypress/e2e/api/paymentorder.js"'
                 bat 'yarn cypress run  --record --key 66d9ea19-2da2-454d-8a89-b8853dd1afe3 --headless --spec "cypress/e2e/api/payment_order_originator.js"'
                 bat 'yarn cypress run  --record --key 66d9ea19-2da2-454d-8a89-b8853dd1afe3 --headless --spec "cypress/e2e/api/express_deposit_request_post.js"'
                 bat 'yarn cypress run  --record --key 66d9ea19-2da2-454d-8a89-b8853dd1afe3 --headless --spec "cypress/e2e/api/express_deposit_request_get.js"'
